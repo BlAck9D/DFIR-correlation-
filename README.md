@@ -1,2 +1,23 @@
-# DFIR-correlation-
-it's useful for the correlating the timine of an digital investigation.by situating the every timestamp at once,can be easy to know the pattern of the case .
+# DFIR Timeline Correlation Tool
+
+A lightweight Digital Forensics & Incident Response (DFIR) timeline builder.
+
+## Features
+- Multi-source evidence ingestion
+- Flexible timestamp parsing
+- Case-insensitive header handling
+- Timeline normalization
+- Master timeline generation
+- Incident summary report
+
+## Supported Evidence
+- Email artifacts
+- Windows logs
+- MFT artifacts
+- Memory analysis output
+- Network logs
+
+## Usage
+
+```bash
+python main.py
